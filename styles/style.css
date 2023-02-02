@@ -8,18 +8,47 @@ body{
     background-color: #F5FFC3;
 }
 
+#header-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+} 
+#MDHL{
+    margin: 0;
+
+    width: 60vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.logo{ 
+    width: 10;
+    height: 12vh;
+    margin-top: 3vh;
+    margin-right: 2vw;
+}
+
+h1{
+    width: 40;
+    height: 20vh;
+    color: #fff;
+    margin-top: 3vh;
+}
+
 #social-media{
-    width: 338px;
-    height: 150px;
+    padding: 0;
+    width: 15vw;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
-    flex-wrap: wrap;
    
 }
-#social-logo{
-    height: 100px;
-    width: 100px;
+.social-logo{
+    height: 7vh;
+    width: 7vh;
+    margin: 3vh 2vh 1vh 2vh;
     
 }
