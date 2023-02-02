@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F5FFC3;
+}
+
+#social-media{
+    width: 338px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+   
+}
+#social-logo{
+    height: 100px;
+    width: 100px;
+    
+}
