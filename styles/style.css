@@ -8,33 +8,39 @@ body{
     background-color: #F5FFC3;
 }
 
+
 #header-container{
+    width: 100%;
+    height: 15vh;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    background-color: #7DD8C7;
+
 } 
+
 #MDHL{
     margin: 0;
-
     width: 60vw;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-color: #7DD8C7;
 }
 
 .logo{ 
-    width: 10;
     height: 12vh;
     margin-top: 3vh;
     margin-right: 2vw;
 }
 
 h1{
-    width: 40;
-    height: 20vh;
+    width: 50vw;
+    height: 10vh;
     color: #fff;
     margin-top: 3vh;
+    text-shadow: #612C83 1px 1px;
 }
 
 #social-media{
@@ -51,4 +57,120 @@ h1{
     width: 7vh;
     margin: 3vh 2vh 1vh 2vh;
     
+}
+
+#navbar{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 100;
+    
+   
+}
+
+#nav-item{
+    text-decoration: none;
+    background-color: #7DD8C7;
+    border: 2px solid #612C83;
+    padding: 2px 3px 2px 3px ;
+    margin: 0 10px 0 10px;
+    border-radius: 4px;
+}
+
+.active{
+    text-decoration: none;
+    background-color: #509AAF;
+    border: 2px solid #612C83;
+    padding: 2px 3px 2px 3px ;
+    margin: 0 10px 0 10px;
+    border-radius: 4px;
+}
+.banner{
+    display: block;
+    
+    width: 80%;
+    height: 50vh;
+    margin: 3vh auto 3vh auto;
+    border-radius: 100px;
+}
+
+h2{
+    
+    display: block;
+    color: #fff;
+    background-color: #612C83;
+    text-align: center;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+    background-color: #fff;
+}
+
+h3{
+    width: 20vw;
+    background-color: #7DD8C7;
+    padding-bottom:  40vh ; 
+    padding-right: 5vw;
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+.p-index{
+    width: 50vw;
+    text-align: center;
+}
+.description{
+    width: 80vw;
+    text-align: center;
+}
+
+img{
+    height: 50vh;
+}
+.p-contact{
+    width: 25vw;
+    align-self: center;   
+}
+.description-rules{
+    margin: 5vh 5vw;
+    width: 70vw;
+    text-align: center;
+}
+
+.rules-dt{
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+li{
+    text-align: left;
+}
+
+.p-info{
+    text-align: left;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse; 
+    background-color: white;
+}
+caption{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+
 }
