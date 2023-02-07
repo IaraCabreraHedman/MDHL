@@ -125,6 +125,7 @@ h3{
     width: 50vw;
     text-align: center;
 }
+
 .description{
     width: 80vw;
     text-align: center;
@@ -184,6 +185,7 @@ table{
     border-collapse: collapse; 
     background-color: white;
 }
+
 caption{
     text-align: center;
     font-size: 1.5em;
@@ -195,4 +197,17 @@ td {
     border: 1px solid black;
     text-align: center;
 
+}
+
+tfoot{
+    background-color:#F5FFC3;
+}
+
+tfoot td{
+    border: none;
+    text-align: left;
+}
+
+tfoot th{
+    text-align: right;
 }
